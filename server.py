@@ -74,7 +74,7 @@ def chat_server():
 
     SOCKET_LIST.append(server_socket)
 
-    print "neuron server started on port " + str(PORT)
+    print "easy socket server started on port " + str(PORT)
 
     while 1:
 
