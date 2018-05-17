@@ -60,6 +60,7 @@ HOST = config.get('config', 'HOST')
 PORT = int(config.get('config', 'PORT'))
 PASSWORD = config.get('config', 'PASSWORD')
 VIEW = str(config.get('config', 'VIEW'))
+print(HOST," ",PORT)
 key = hasher(PASSWORD)
 SOCKET_LIST = []
 RECV_BUFFER = 4096
