@@ -54,7 +54,7 @@ def decrypt(secret, data):
 
 
 config = ConfigParser.RawConfigParser()
-config.read(r'neuron.conf')
+config.read(r'server.conf')
 
 HOST = config.get('config', 'HOST')
 PORT = int(config.get('config', 'PORT'))
