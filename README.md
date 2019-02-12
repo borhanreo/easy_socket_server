@@ -33,3 +33,5 @@
 ### Then need to run client server
     # sudo python client.py  <host> <port> <password> <username>
     sudo python client.py  127.0.0.1 777 borhan user_borhan   
+    
+    All did
